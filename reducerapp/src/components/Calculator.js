@@ -39,15 +39,10 @@ class Calculator extends Component {
           
 
           <div className= "row20">
-           <div className = "col25">
-             <div className = "col25"> <ActionButton symbol = "."/></div>
-            </div>
-            <div className = "col25">
+        
+             <div className = "col25"> <NumberButton symbol = "."/></div>              
              <div className = "col25"> <NumberButton symbol = "0"/></div>
-            </div>
-            <div className = "col50">
-            <div className = "col25"> <ActionButton symbol = "="/></div>
-            </div>
+            <div className = "col50"> <ActionButton symbol = "="/></div>
           </div>
         </div>
 

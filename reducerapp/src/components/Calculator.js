@@ -1,48 +1,50 @@
 import React, { Component } from 'react';
+import Button from './Button'
 import '.././App.css';
-import ActionButton from './ActionButton'
-import NumberButton from './NumberButton'
 
+
+
+ 
 class Calculator extends Component {
   render() {
     return (
       <div className="Calculator">
         <div className="input">
-         <div/>
+        7+3
         </div>
 
         <div className = "mainPart">
 
           <div className= "row40">
             <div className = "col75">
-              <div className = "col33" ><ActionButton symbol = "c"/></div>
-              <div className = "col33"><ActionButton symbol = "/"/></div>
-              <div className = "col33"><ActionButton symbol = "*"/></div>
-              <div className = "col33"><NumberButton symbol = "7"/></div>
-              <div className = "col33"><NumberButton symbol = "8"/></div>
-              <div className = "col33"><NumberButton symbol = "9"/></div>
+              <div className = "col33" ><Button symbol = "c" class = "ActionButton"/></div>
+              <div className = "col33"><Button symbol = "/"  class = "ActionButton"/></div>
+              <div className = "col33"><Button symbol = "*"  class = "ActionButton"/></div>
+              <div className = "col33"><Button symbol = "7"  class = "NumberButton"/></div>
+              <div className = "col33"><Button symbol = "8"  class = "NumberButton"/></div>
+              <div className = "col33"><Button symbol = "9"  class = "NumberButton"/></div>
             </div>
-            <div className = "col25"> <ActionButton symbol = "-"/></div>
+            <div className = "col25"> <Button symbol = "-" class = "ActionButton"/></div>
           </div>
 
           <div className= "row40">
             <div className = "col75">
-              <div className = "col33"><NumberButton symbol = "4"/></div>
-              <div className = "col33"><NumberButton symbol = "5"/></div>
-              <div className = "col33"><NumberButton symbol = "6"/></div>
-              <div className = "col33"><NumberButton symbol = "1"/></div>
-              <div className = "col33"><NumberButton symbol = "2"/></div>
-              <div className = "col33"><NumberButton symbol = "3"/></div>
+              <div className = "col33"><Button symbol = "4"  class = "NumberButton"/></div>
+              <div className = "col33"><Button symbol = "5"  class = "NumberButton"/></div>
+              <div className = "col33"><Button symbol= "6"  class = "NumberButton"/></div>
+              <div className = "col33"><Button symbol = "1"  class = "NumberButton"/></div>
+              <div className = "col33"><Button symbol = "2"  class = "NumberButton"/></div>
+              <div className = "col33"><Button symbol = "3"  class = "NumberButton"/></div>
             </div>
-            <div className = "col25"> <ActionButton symbol = "+"/></div>
+            <div className = "col25"> <Button symbol = "+"  class = "ActionButton"/></div>
           </div>
           
 
           <div className= "row20">
         
-             <div className = "col25"> <NumberButton symbol = "."/></div>              
-             <div className = "col25"> <NumberButton symbol = "0"/></div>
-            <div className = "col50"> <ActionButton symbol = "="/></div>
+             <div className = "col25"> <Button symbol = "." class = "NumberButton"/></div>              
+             <div className = "col25"> <Button symbol = "0" class = "NumberButton"/></div>
+            <div className = "col50"> <Button symbol = "="  class = "ActionButton"/></div>
           </div>
         </div>
 

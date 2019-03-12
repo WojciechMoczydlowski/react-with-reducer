@@ -37,6 +37,10 @@
   outline: 1px;
 }
 
+.ActionButton:hover, .NumberButton:hover{
+  cursor: pointer;
+}
+
 .ActionButton{
   background-color: #d8e70c
 }

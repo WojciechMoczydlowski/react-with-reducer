@@ -5,7 +5,6 @@ import {addSymbol,cleanInput,compute} from '../actions/calculatorActions';
 import '.././App.css';
 
 class Calculator extends Component {
-
   render() {
     return (
       <div className="Calculator">
